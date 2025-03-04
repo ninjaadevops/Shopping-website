@@ -27,7 +27,7 @@ Steps
 2. Flask
 3. Sqlite
 
-## How to run in a local environment##
+## How to run in a local environment ##
 1. Set up database by running database.py (Or you can reuse existing database included in the repo)
 2. Run main.py
 3. Enter localhost:5000 in the browser
