@@ -2,7 +2,7 @@
 A simple E-commerce website using Flask.
 
 ## Steps to deploy on Docker ##
-Step 1
+Steps
 1. Launch an EC2 instance on Aws
 2. Update all the packages
 3. Clone the code
@@ -11,7 +11,16 @@ Step 1
 6. Run the docker container
 
 ## Commands to Deploy on Docker ##
-
+1. Sudo apt update
+2. Sudo apt upgrade
+3. Git clone https://github.com/ninjaadevops/shopping-website.git
+4. ls
+5. cd shopping-wensite
+6. sudo apt-get install docker.io -y
+7. docker --version
+8. sudo docker build -t shopping-website .
+9. sudo docker run -p 8080:8080 <imageId>
+10. sudo docker ps
 
 ## Dependencies ##
 1. Python3
